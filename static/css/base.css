@@ -1,0 +1,13 @@
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+#logos-slide {
+  padding-left: 2rem;
+  animation: 10s slide infinite linear;
+}
